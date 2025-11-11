@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <user_id>E1001</user_id>
+        <name>Sarah Jenkins</name>
+        <email>sarah.jenkins@example.com</email>
+        <title>CEO</title>
+        <manager_id></manager_id> </user>
+    <user>
+        <user_id>E1002</user_id>
+        <name>Mark Smith</name>
+        <email>mark.smith@example.com</email>
+        <title>VP of Engineering</title>
+        <manager_id>E1001</manager_id>
+    </user>
+    <user>
+        <user_id>E1003</user_id>
+        <name>Jane Doe</name>
+        <email>jane.doe@example.com</email>
+        <title>Lead Developer</title>
+        <manager_id>E1002</manager_id>
+    </user>
+    <user>
+        <user_id>E1004</user_id>
+        <name>Tom Brown</name>
+        <email>tom.brown@example.com</email>
+        <title>Junior Developer</title>
+        <manager_id>E1003</manager_id>
+    </user>
+    <user>
+        <user_id>E1005</user_id>
+        <name>Li Wang</name>
+        <email>li.wang@example.com</email>
+        <title>Product Manager</title>
+        <manager_id>E1001</manager_id>
+    </user>
+</users>
