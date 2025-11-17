@@ -57,3 +57,40 @@ body {
 .user-list td:first-child {
     font-weight: 500;
 }
+
+
+/* --- New Styles for Controls --- */
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-input,
+.filter-select {
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.search-input {
+    flex-grow: 1; /* Search bar takes up available space */
+}
+
+.filter-select {
+    min-width: 180px;
+    cursor: pointer;
+}
+
+/* --- Styles for Sortable Headers --- */
+.user-list th {
+    cursor: pointer;
+    user-select: none; /* Prevents text selection on click */
+}
+
+.user-list th:hover {
+    background-color: #ececec;
+}
