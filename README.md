@@ -7,6 +7,7 @@ This project was developed rapidly by leveraging an AI-powered assistant, **Goog
 
 It was used to accelerate development in several key areas:
 
+<<<<<<< HEAD
  Generating the initial project structure for both Django (backend) and React (frontend) applications.
 
  Writing boilerplate code for the Django User model, admin interface, and views.
@@ -21,3 +22,18 @@ It was used to accelerate development in several key areas:
 
 Finally, the complete project was version-controlled and pushed to GitHub with meaningful commits.
 
+=======
+	Generating the initial project structure for both Django (backend) and React (frontend) applications.
+
+	Writing boilerplate code for the Django User model, admin interface, and views.
+
+	Implementing the XML parsing logic within a Django management command to import user data.
+
+	Creating the UserSerializer and REST API endpoints using Django Rest Framework.
+
+	Scaffolding the React UserList component with axios for API integration and useEffect hooks for data fetching.
+
+	Providing the CSS styling for a clean, responsive, and modern UI layout.
+
+Finally, the complete project was version-controlled and pushed to GitHub with meaningful commits.
+>>>>>>> 79ce42f1b9d2bfde925c32a1ade37f046d3a01f5
